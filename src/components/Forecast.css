@@ -1,0 +1,121 @@
+/* Set the forecast container to take up the entire screen */
+.forecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 110vh;
+  
+  background-color: #f3f7fa; /* Example background color */
+}
+
+
+/* Style for the forecast cards */
+.forecast-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 90%; /* Take up 90% of the width */
+  
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+
+/* Individual forecast card styling */
+.forecast-card {
+  background-color: black;
+  /* padding: 10px; */
+  
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+  width: 130px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+  cursor: pointer;
+}
+.forecast-card:hover {
+    transform: scale(1.1); /* Grow the card on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhance the shadow for a popping effect */
+  }
+
+  
+.forecast-card p {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #1e90ff, #32cd32); /* New gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.forecast-card h2 {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #1e90ff, #32cd32); /* New gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Chart container styling */
+.chart-container {
+  width: 60%; /* Ensure the chart container spans a large portion of the screen */
+  height: 500px; /* Height for the chart */
+ 
+}
+.chart-container:hover {
+    transform: scale(1.2); /* Grow the card on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhance the shadow for a popping effect */
+  }
+
+.chart-title {
+  text-align: center;
+  margin-bottom: 10px;
+  /* color: black; */
+  /* font-size: xx-large; */
+  font-size: 50px;
+        font-weight: bold;
+        background: linear-gradient(45deg, #1e90ff, #32cd32); /* New gradient colors */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       
+}
+.quality-icon {
+    width: 70px;  /* Set the icon size */
+    height: 70px; /* Ensure proportional sizing */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: red;
+  }
+  .quality-icon1 {
+    width: 70px;  /* Set the icon size */
+    height: 70px; /* Ensure proportional sizing */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+  }
+  .quality-icon2 {
+    width: 70px;  /* Set the icon size */
+    height: 70px; /* Ensure proportional sizing */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    
+  transition: transform 0.3s ease;
+  }
+  
+  .quality-icon3 {
+    width: 70px;  /* Set the icon size */
+    height: 70px; /* Ensure proportional sizing */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: green;
+  }
+  .quality-icon4 {
+    width: 70px;  /* Set the icon size */
+    height: 70px; /* Ensure proportional sizing */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: brown;
+  }
+  

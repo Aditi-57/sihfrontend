@@ -1,0 +1,174 @@
+ .search-bar .sidebar{
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    border: none;
+    padding: 10px;
+    font-size: 50px;
+    
+    
+  }
+  .search-bar{
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    background-color: aquamarine
+
+
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    
+    
+    font-size: 30px;
+  }
+  .location-info{
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #1e90ff, #32cd32); /* New gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+  .location-info h1 {
+    font-size: 2.5rem;
+    color: white;
+   
+  }
+  .details{
+    padding-left: -30px;
+  }
+  .location-info h2 {
+    /* font-size: 2.5rem; */
+    /* color: white; */
+    padding-left: 40px;
+
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #f39c12, #e74c3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 
+      3px 3px 0px rgba(0,0,0,0.1),
+      6px 6px 0px rgba(0,0,0,0.1),
+      9px 9px 0px rgba(0,0,0,0.1),
+      12px 12px 0px rgba(0,0,0,0.1);
+
+    
+  }
+  .location-info p {
+    /* font-size: 1.5rem;
+    color: white; */
+    padding-left: -130px;
+    
+        font-size: 30px;
+        font-weight: bold;
+        background: linear-gradient(45deg, #1e90ff, #32cd32); /* New gradient colors */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+   
+  }
+  
+  .highlights {
+    margin-top: 20px;
+    /* color: white; */
+    padding-right: 130px;
+    padding-left: 40px;
+   
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(45deg, #1e90ff, #32cd32); /* New gradient colors */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       
+      
+
+    
+
+  }
+  
+  .highlights h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white
+  }
+  .highlights p{
+    font-size: 1.5em;
+    color: white
+  }
+  .photo img {
+    height: 300px;
+    width: 400px;
+    
+   
+    background-size: contain; /* Ensures the image scales properly */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: none; /* No shadow */
+    padding: 5px;
+    color: #ffffff; /* Text color if there’s any text */
+    filter: none; /* No additional filters */
+    opacity: 1; /* Full opacity */
+    background-color: transparent;
+}
+
+  .sub{
+    
+    width:650px;
+    height: 1390px;
+    display: flex;
+  flex-direction: column; /* Ensures elements stack vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; 
+    background: linear-gradient(180deg, #5b785e 0%, #1c3b2d 100%);
+    border-radius: 25px; /* Adjust based on your need for rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* For subtle depth */
+   
+    color: #ffffff; /* To ensure the text stands out */ 
+    margin-top: -110px;
+    margin-left: -50px;
+    
+  }
+  .today{
+    background: linear-gradient(180deg, #5b785e 0%, #1c3b2d 100%);
+    border-radius: 15px;
+    width: 550px;
+    height: 800px;
+    }
+    .today:hover {
+        transform: scale(1.1); /* Grow the card on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhance the shadow for a popping effect */
+      }
+  /* Water wave animation */
+@keyframes waterWave {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  /* Applying wave animation to the image */
+  .photo {
+    position: relative; /* For absolute positioning of the image */
+    overflow: hidden; /* Ensures the animated image stays within the container */
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background: none; /* No background color */
+  }
+  
+  .photo img {
+    width: 100%; /* Make sure the image covers the container */
+    height: 100%;
+    object-fit: cover; /* Ensure the image doesn't stretch */
+    animation: waterWave 5s linear infinite; /* Apply the wave animation */
+  }
+  

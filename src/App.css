@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+   
+  height: 135vh;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #9FE0DB 0%, #082726 100%);
+  width: 100vw; 
+}
+
+.sidebar {
+  width: 25%;
+  height: 107vh;
+  padding: 143px;
+  background: linear-gradient(145deg, rgba(0,128,255,0.2), rgba(0,0,0,0.5));
+ 
+  
+}
+
+ .forecast {
+    width: 75%;
+    padding: 90px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 117vh;
+    
+  } 
+
+
+.forecast-header  {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 60px;
+  /* color: aqua; */
+  /* background-color: blueviolet; */
+  border-radius: 40px;
+  padding: 10px;
+  margin-top: -30px;
+
+  
+    font-size: 50px;
+    font-weight: bold;
+    color: #3498db;
+    text-shadow: 
+      2px 2px 0px #2c3e50,
+      4px 4px 0px #34495e,
+      6px 6px 0px #2c3e50,
+      8px 8px 0px #34495e;
+  
+  
+
+}
+
+.forecast-cards {
+  display: flex;
+  justify-content: space-between;
+ padding-bottom: 40px;
+ margin-top: 30px;
+}
+
+.forecast-card {
+  background-color:black;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.chart-container {
+  background-color: beige;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -50px;
+}
+
+.chart-title {
+  font-size:40px;
+  
+}
